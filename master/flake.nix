@@ -11,7 +11,6 @@
   inputs.src-nim_miniz-master.ref   = "refs/heads/master";
   inputs.src-nim_miniz-master.owner = "h3rald";
   inputs.src-nim_miniz-master.repo  = "nim-miniz";
-  inputs.src-nim_miniz-master.dir   = "";
   inputs.src-nim_miniz-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

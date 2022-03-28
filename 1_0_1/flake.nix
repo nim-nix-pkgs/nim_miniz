@@ -11,7 +11,6 @@
   inputs.src-nim_miniz-1_0_1.ref   = "refs/tags/1.0.1";
   inputs.src-nim_miniz-1_0_1.owner = "h3rald";
   inputs.src-nim_miniz-1_0_1.repo  = "nim-miniz";
-  inputs.src-nim_miniz-1_0_1.dir   = "";
   inputs.src-nim_miniz-1_0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
